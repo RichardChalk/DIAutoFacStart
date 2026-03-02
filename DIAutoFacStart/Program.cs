@@ -1,6 +1,6 @@
 ﻿using WithDI;
 
-var notificationService = new ConsoleNotification();
+INotificationService notificationService = new ConsoleNotification();
 
 var user1 = new User("Richard", notificationService);
 
